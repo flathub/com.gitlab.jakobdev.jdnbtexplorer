@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/d4/e4/d9837cf560f1a5000b1b1263028ddf5d93cc73d128ca558f55f31d1e7f90/NBT-1.5.0-py3-none-any.whl",
-                    "sha256": "834505e9137d00ab5b098979b4e1d383a14061e80364a7f1b9587839b2743f5e"
+                    "url": "https://files.pythonhosted.org/packages/b9/ae/f3bdbbaccaca97a2bfdd87466a08717a2174f136e3b99a189d32d03d6526/NBT-1.5.1-py2.py3-none-any.whl",
+                    "sha256": "1503314d0374b983642f9f219890330ce19d9d85966a28bdb6bef1fb17c4c2c0"
                 }
             ]
         },
