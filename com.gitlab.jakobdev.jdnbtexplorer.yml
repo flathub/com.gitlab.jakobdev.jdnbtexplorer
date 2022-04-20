@@ -2,7 +2,14 @@ app-id: com.gitlab.jakobdev.jdnbtexplorer
 runtime: org.kde.Platform
 runtime-version: "6.2"
 sdk: org.kde.Sdk
+base: com.riverbankcomputing.PyQt.BaseApp
+base-version: "6.2"
 command: jdNBTExplorer
+cleanup-commands:
+  - /app/cleanup-BaseApp.sh
+build-options:
+  env:
+    - BASEAPP_REMOVE_PYWEBENGINE=1
 finish-args:
   - --socket=fallback-x11
   - --share=ipc
@@ -10,7 +17,6 @@ finish-args:
   - --socket=wayland
 
 modules:
-  - pyqt6.yml
   - python3-modules.json
 
   - name: jdNBTExplorer
@@ -21,9 +27,9 @@ modules:
       - install -Dm644 com.gitlab.jakobdev.jdnbtexplorer.desktop /app/share/applications/com.gitlab.jakobdev.jdnbtexplorer.desktop
       - install -Dm644 jdNBTExplorer.appdata.xml /app/share/appdata/com.gitlab.jakobdev.jdnbtexplorer.metainfo.xml
     sources:
-      - type: archive
-        url: https://gitlab.com/JakobDev/jdNBTExplorer/-/archive/1.2/jdNBTExplorer-1.2.tar.gz
-        sha256: 93ca67a4e3a102628b9e808c05f075acd2004dec1d6acb9784721dcd35a71a2e
+      - type: git
+        url: https://gitlab.com/JakobDev/jdNBTExplorer.git
+        tag: "1.2"
 
       - type: file
         path: com.gitlab.jakobdev.jdnbtexplorer.desktop
