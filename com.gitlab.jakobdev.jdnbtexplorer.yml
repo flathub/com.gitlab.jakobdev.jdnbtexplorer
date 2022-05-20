@@ -30,6 +30,10 @@ modules:
       - type: git
         url: https://gitlab.com/JakobDev/jdNBTExplorer.git
         tag: "1.2"
+        commit: 9c1c883d17784a5963f18155cb3cde6b5e49d07a
+        x-checker-data:
+          type: git
+          tag-pattern: (.+)
 
       - type: file
         path: com.gitlab.jakobdev.jdnbtexplorer.desktop
