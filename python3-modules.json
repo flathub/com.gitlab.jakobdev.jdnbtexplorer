@@ -31,8 +31,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/66/d4/b4599ec27e10e92ebe336c79007fb6ba336d7dab889aeb545a82fb7764a1/jdTranslationHelper-3.0-py3-none-any.whl",
-                    "sha256": "f8abfb69eb0e41c019a31925e35ae9f4a0b7f2940d58b7fe93db6f0b3d48c2bc",
+                    "url": "https://files.pythonhosted.org/packages/75/de/51077de26aa0b24cfdd2d0e8c52b4f42c6d570eab46d214b8ddb6d91248e/jdTranslationHelper-3.2-py3-none-any.whl",
+                    "sha256": "19faac7316f2d9f2ddc69141fe71606def397c833d8bc831b84fdcad7e06c720",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "jdTranslationHelper",
